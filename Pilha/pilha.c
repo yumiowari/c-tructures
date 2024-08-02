@@ -85,6 +85,8 @@ int fillPile(Pilha *pilha, char *path){
             if(!pushToPile(pilha, info))return 3;
         }
 
+        fclose(f);
+
         return 0;
     }else return 1;
 }
@@ -105,6 +107,8 @@ int savePile(Pilha *pilha, char *path){
 
                 i++;
             }
+
+            fclose(f);
 
             return 0;
         }else return 2;

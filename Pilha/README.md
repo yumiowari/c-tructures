@@ -8,4 +8,4 @@ Pode-se acrescentar e remover nós apenas do topo da pilha.
 
 ### Compilação:
 
-`gcc pilha.c -o pilha.o && gcc main.c pilha.o -o main`
+`gcc -c pilha.c -o pilha.o && gcc main.c pilha.o -o main`

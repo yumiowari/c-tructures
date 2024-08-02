@@ -17,7 +17,7 @@ int makePile(Pilha *pilha);
 // 0 - all right;
 // 1 - memória RAM insuficiente.
 
-int pushToPile(Pilha *topo, int info);
+int pushToPile(Pilha *pilha, int info);
 // função para empilhar um nó na pilha
 //
 // códigos de retorno:
